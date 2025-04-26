@@ -1,0 +1,15 @@
+artifact_uri: file:///home/cjlsw/Project-Build-an-ML-Pipeline-Starter/outputs/2025-04-26/14-04-24/mlruns/0/d77fad3cb9ae40f38a7904ec8e21285d/artifacts
+end_time: 1745701479316
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d77fad3cb9ae40f38a7904ec8e21285d
+run_name: indecisive-gull-679
+run_uuid: d77fad3cb9ae40f38a7904ec8e21285d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745701465873
+status: 3
+tags: []
+user_id: cjlsw
