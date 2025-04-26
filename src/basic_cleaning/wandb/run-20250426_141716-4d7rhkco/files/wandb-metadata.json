@@ -1,0 +1,121 @@
+{
+    "os": "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.10.17",
+    "heartbeatAt": "2025-04-26T21:17:17.171778",
+    "startedAt": "2025-04-26T21:17:16.620418",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "sample.csv",
+        "--output_artifact",
+        "clean_sample",
+        "--output_type",
+        "clean_sample",
+        "--output_description",
+        "Cleaned dataset with price filtering",
+        "--min_price",
+        "10.0",
+        "--max_price",
+        "500.0"
+    ],
+    "state": "running",
+    "program": "/home/cjlsw/Project-Build-an-ML-Pipeline-Starter/src/basic_cleaning/run.py",
+    "codePathLocal": "run.py",
+    "codePath": "src/basic_cleaning/run.py",
+    "git": {
+        "remote": "https://github.com/CameronJLSweeney/Project-Build-an-ML-Pipeline-Starter.git",
+        "commit": "02b8fd4f4c354222d211ea48c50a0d7353394f99"
+    },
+    "email": "cjlsweeney@gmail.com",
+    "root": "/home/cjlsw/Project-Build-an-ML-Pipeline-Starter",
+    "host": "Hanno",
+    "username": "cjlsw",
+    "executable": "/home/cjlsw/miniconda3/envs/nyc_airbnb_dev/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2904.0089999999996,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2904.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2904.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2904.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2904.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2904.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2904.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2904.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2904.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2904.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2904.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2904.009,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2904.009,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1006.853931427002,
+            "used": 11.510868072509766
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1660 SUPER",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1660 SUPER",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 7.690601348876953
+    }
+}
