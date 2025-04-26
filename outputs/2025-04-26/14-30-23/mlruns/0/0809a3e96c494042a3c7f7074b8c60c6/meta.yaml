@@ -1,0 +1,15 @@
+artifact_uri: file:///home/cjlsw/Project-Build-an-ML-Pipeline-Starter/outputs/2025-04-26/14-30-23/mlruns/0/0809a3e96c494042a3c7f7074b8c60c6/artifacts
+end_time: 1745703038057
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0809a3e96c494042a3c7f7074b8c60c6
+run_name: bright-wren-942
+run_uuid: 0809a3e96c494042a3c7f7074b8c60c6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745703024877
+status: 3
+tags: []
+user_id: cjlsw

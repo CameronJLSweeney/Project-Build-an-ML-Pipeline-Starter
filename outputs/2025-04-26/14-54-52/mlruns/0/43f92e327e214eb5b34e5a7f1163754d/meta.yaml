@@ -1,0 +1,15 @@
+artifact_uri: file:///home/cjlsw/Project-Build-an-ML-Pipeline-Starter/outputs/2025-04-26/14-54-52/mlruns/0/43f92e327e214eb5b34e5a7f1163754d/artifacts
+end_time: 1745704506423
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 43f92e327e214eb5b34e5a7f1163754d
+run_name: melodic-turtle-10
+run_uuid: 43f92e327e214eb5b34e5a7f1163754d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745704493606
+status: 3
+tags: []
+user_id: cjlsw
