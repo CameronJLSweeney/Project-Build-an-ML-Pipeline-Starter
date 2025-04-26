@@ -1,0 +1,15 @@
+artifact_uri: file:///home/cjlsw/Project-Build-an-ML-Pipeline-Starter/mlruns/0/16f960e51c234182a24dfa5b3302c337/artifacts
+end_time: 1745553950936
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 16f960e51c234182a24dfa5b3302c337
+run_name: luxuriant-flea-405
+run_uuid: 16f960e51c234182a24dfa5b3302c337
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745553796450
+status: 3
+tags: []
+user_id: cjlsw

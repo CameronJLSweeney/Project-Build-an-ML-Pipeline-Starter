@@ -54,43 +54,43 @@ if __name__ == "__main__":
   
     parser.add_argument(
         "--input_artifact", 
-        type = str,
-        help = "Name of the input artifact to be cleaned",
+        type = ## INSERT TYPE HERE: str, float or int,
+        help = ## INSERT DESCRIPTION HERE,
         required = True
     )
 
     parser.add_argument(
         "--output_artifact", 
-        type = str,
-        help = "Name of the output artifact to be cleaned",
+        type = ## INSERT TYPE HERE: str, float or int,
+        help = ## INSERT DESCRIPTION HERE,
         required = True
     )
 
     parser.add_argument(
         "--output_type", 
-        type = str,
-        help = "What kind of artifact is being cleaned",
+        type = ## INSERT TYPE HERE: str, float or int,
+        help = ## INSERT DESCRIPTION HERE,
         required = True
     )
 
     parser.add_argument(
         "--output_description", 
-        type = str,
-        help = "Short description of the cleaned output artifact",
+        type = ## INSERT TYPE HERE: str, float or int,
+        help = ## INSERT DESCRIPTION HERE,
         required = True
     )
 
     parser.add_argument(
         "--min_price", 
-        type = float,
-        help = "The minimum price allowed in the dataset",
+        type = ## INSERT TYPE HERE: str, float or int,
+        help = ## INSERT DESCRIPTION HERE,
         required = True
     )
 
     parser.add_argument(
         "--max_price",
-        type = float,
-        help = "The maximum price allowed in the dataset",
+        type = ## INSERT TYPE HERE: str, float or int,
+        help = ## INSERT DESCRIPTION HERE,
         required = True
     )
 
