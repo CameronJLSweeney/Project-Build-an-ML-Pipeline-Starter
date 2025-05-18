@@ -26,15 +26,24 @@ def go(args):
     logger.info('Fetching raw dataset.')
     local_path = wandb.use_artifact('sample.csv:latest').file()
     df = pd.read_csv(local_path)
+    df['price'] = pd.to_numeric(df['price'], errors='coerce')
+    df['min_price'] = pd.to_numeric(df['min_price'], errors = 'coerce')
+    df['max_price'] = pd.to_numeric(df['max_price'], errors = 'coerce')
+
     
     # EDA with arguments passed into the step
     logger.info('Cleaning data.')
-    idx = df['price'].between(float(args.min_price), float(args.max_price))
+    min_price = float(args.min_price)
+    max_price = float(args.max_price)
+    idx = df['price'].between(min_price, max_price)
     df = df[idx].copy()
-    df['last_review'] = pd.to_datetime(df['last_review'])
+    df['last_review'] = pd.to_datetime(df['last_review'], errors='coerce')
     # TODO: add code to fix the issue happened when testing the model
+    df.dropna(subset=['price', 'last_review'], inplace=True)
+    df = df[df['price'] >=0]
+    idx = df['longitude'].between(-74.25, -73.50) & df['latitude'].between(40.5, 41.2) # <- Updated code
+    df = df[idx].copy()
     
-
     # Save the cleaned data
     logger.info('Saving and exporting cleaned data.')
     df.to_csv('clean_sample.csv', index=False)
